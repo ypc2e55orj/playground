@@ -16,10 +16,7 @@ long long int fib_naive(long long int n)
 long long int _fib(long long int n, long long int *memo, long long int *dup)
 {
     if (memo[n] > -1)
-    {
-        (*dup)++;
         return memo[n];
-    }
 
     if (n == 0)
         return (memo[n] = 0);
