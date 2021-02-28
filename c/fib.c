@@ -46,6 +46,8 @@ long long int fib(long long int n)
 
 int main(void)
 {
-    printf("fib_naive: %lld\n", fib_naive(1000));
     printf("fib: %lld\n", fib(1000));
+    printf("fib_naive: %lld\n", fib_naive(1000));
+
+    return 0;
 }
