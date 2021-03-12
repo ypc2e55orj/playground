@@ -35,7 +35,7 @@ cat << EOF > $i.html
     </head>
     <body>
         <h1>'$i.html'</h1>
-        <a href="./$i.html#$i" title="permalink">$i</a>
+        <a href="./$i#$i" title="permalink">'$i'</a>
     </body>
 </html>
 EOF
